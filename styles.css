@@ -1,1 +1,49 @@
 /* Styles for the Advanced Markup assignment. */
+nav ul li {
+  display: inline;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+#sidebar {
+  width: 250px;
+  float: right;
+  background: none;
+  margin: 70px 20px 20px 20px;
+  padding: 0px 10px 0px 10px;
+  border-style: groove;
+  border-color: green;
+}
+
+
+.bio-photo {
+  float: left;
+  margin: 20px;
+  padding: 10px 10px 10px 10px;
+  border-style: groove;
+  border-color: green;
+}
+
+.poem {
+  list-style-type: none;
+  font-family: cursive;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px; 
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td{
+  border: 1px solid black;
+}
+    
+table {
+  width: 50%;
+}
